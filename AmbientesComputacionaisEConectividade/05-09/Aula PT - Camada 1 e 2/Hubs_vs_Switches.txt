@@ -1,0 +1,33 @@
+Aula prática - Diferença entre Hubs e Switches
+
+Montar uma rede com 4 computadores e um dispositivo centralizador
+ - primeiramente usar o hub
+ - conecte os computadores ao hub usando o cabo adequado
+ 
+Configurar o enderaçamento IP dos 4 computadores como 192.168.1.1 ~ 4
+ - renomear os computadores para PC 1 a 4
+ - acesse a aba Desktop de cada PC e selecione a opção Ip configuraton
+ - coloque para cada PC o endereço IP 192.168.1.1 ~ 4 e máscara de subrede 255.255.255.0
+ 
+Alterar para aba de simulação e desativar todos os tipos de pacotes e ativar somente pacotes ICMP
+ - A partir de um dos computadores, realizar um ping para outro;
+ - clicar sucessivamente no botão de avançar (clieque devagar para poder enxergar os eventos) a simulação para mostrar a dinâmica do tráfego do hub;
+ - observe que os pacotes do hub são sempre enviados para todas as portas com conexão exceto a porta por onde chegou o pacote;
+ - qual o problema dessa abordagem?
+   - reinicie a simulação e em cada PC acesse Desktop->promp de comando e digite ping para um dos computadores adjacentes;
+   - clique sucessivamente no botão de avançar e observe os pacotes IMCP sendo enviados por diferentes fontes;
+   - O que acontece quando um pacote colide com outro?
+ 
+Apague o HUB e adicione na rede um switch
+ - os endereços IPs já devem estar configurados; 
+ - Acesse Desktop->prompt de comando e faça o ping para outra máquina pelo endereço IP. Qual a diferença?
+ - Como o switch sabe pra quem ele deve enviar o pacote? 
+   - Acesse o PC e no prompt de comando digite arp -a: essa é a tabela arp do computador que mantém um mapeamento entre IP e MAC;
+   - digite arp -d e depois arp -a. Acabamos de apagar a tabela arp;
+ - Mude os filtros para apresentar os pacotes ARP e faça um ping do computador para outro computador. Clique sucessivamente para observas a dinâmica;
+ - Agora, além dos pacotes ICMP, os pacotes arp também trafegam na rede. Note que, quando o PC não sabe quem é o destino cujo IP foi digitado, ele faz uma requisição ARP para descobrir o portador de tal IP;
+ - E o switch? Como ele sabe para qual porta encaminhar o pacote? 
+   - use o comando show mac address-table no switch para visualizar a tabela de macs e portas associadas; Por que não existe IP? 
+     - o comando clear mac address-table pode ser usado para apagar o conteúdo da tabela.
+
+ 
