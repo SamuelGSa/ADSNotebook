@@ -55,3 +55,14 @@ A = Alt + 65
 ![](print-018.png)
 
 ![](print-019.png)
+
+![](print-020.png)
+
+![](print-021.png)
+
+![](print-022.png)
+
+![](print-023.png)
+
+![](print-024.png)
+
