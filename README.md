@@ -8,10 +8,11 @@ O curso de Análise e Desenvolvimento de Sistemas visa preparar profissionais pa
 
 ## Conteúdos
 
-- [Ambientes Computacionais e Conectividade]()
-- [Sistemas Computacionais e Segurança]()
-- [Modelagem de Software]()
-- [Programação de Soluções Computacionais]()
+### Ambientes Computacionais e Conectividade
+
+- [Sub-rede IP: Máscaras possíveis para classes A, B e C](http://www.dltec.com.br/blog/redes/subrede-ip-mascaras-possiveis-e-quantidades-para-classes-a-b-e-c-curso-ccna/)
+
+- [Classes de endereços IP](https://www.canalti.com.br/redes-de-computadores/classes-de-enderecos-ip/) 
 
 ## Links Úteis
 - [Padrão de Commits](https://github.com/iuricode/padroes-de-commits)
