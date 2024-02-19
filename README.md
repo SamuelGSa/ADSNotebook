@@ -1,4 +1,4 @@
-# Curso de Análise e Desenvolvimento de Sistemas
+# Caderno de anotações do Curso de Análise e Desenvolvimento de Sistemas
 
 Bem-vindo ao repositório centralizador dos conteúdos do curso de Análise e Desenvolvimento de Sistemas! Aqui você encontrará uma variedade de recursos, materiais e informações relevantes para o seu aprendizado e desenvolvimento profissional na área.
 
@@ -12,6 +12,9 @@ O curso de Análise e Desenvolvimento de Sistemas visa preparar profissionais pa
 - [Sistemas Computacionais e Segurança]()
 - [Modelagem de Software]()
 - [Programação de Soluções Computacionais]()
+
+## Links Úteis
+- [Padrão de Commits](https://github.com/iuricode/padroes-de-commits)
 
 
 ## Como Contribuir
