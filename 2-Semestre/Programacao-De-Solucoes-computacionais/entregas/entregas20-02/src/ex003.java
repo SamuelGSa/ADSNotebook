@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Atividade003 {
+public class ex003 {
 //    Leia uma temperatura dada na escala Celcius (C) e imprima o equivalente em Fahrenheint (F)
 //    (Formula: F = 9/5 * C +32).
 
