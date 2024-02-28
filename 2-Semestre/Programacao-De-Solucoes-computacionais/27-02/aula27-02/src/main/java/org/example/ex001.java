@@ -9,20 +9,20 @@ public class ex001 {
     public static void main(String[] args) {
         System.out.print("Digite sua idade: ");
         int idade = scanner().nextInt();
-        System.out.println(validaIdade(idade));
+        validaIdade(idade);
     }
 
      static Scanner scanner() {
         return new Scanner(System.in);
     }
 
-    static String validaIdade(int idade) {
+    static void validaIdade(int idade) {
         if (idade > 17) {
-            return "Maior de idade. Bora tomar uma!";
+            System.out.println("Maior de idade. Bora tomar uma!");
         } else if (idade < 0) {
-            return "Idade negativa? Oloco! Tente novamente!";
+            System.out.println("Idade negativa? Oloco! Tente novamente!");
         } else {
-            return "Menor de idade. Danone com biscoito";
+            System.out.println("Menor de idade. Danone com biscoito");
         }
     }
 }
